@@ -1316,7 +1316,6 @@ textarea {
 .portfolio-head {
 	position: relative;
 	overflow: hidden;
-	height: 100%;
 }
 
 .portfolio-img img {
@@ -3562,4 +3561,37 @@ span.crumbs-span,
   display: block;
   margin: 0 auto;     /* centra el logo */
   object-fit: contain; /* asegura que no se deforme */
+}
+
+.portfolio-slide ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.portfolio-slide ul li .col-md-3 {
+    float: none;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.portfolio-one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+}
+
+.portfolio-content {
+    display: block;
+    flex: 0 0 auto;
+    padding: 20px;
+}
+
+.portfolio-img img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
