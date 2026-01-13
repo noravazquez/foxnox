@@ -156,17 +156,17 @@
 
 	/* Counter */
 
-	jQuery(".box-icon-number h5").each(function () {
-		jQuery(this).appear(function () {
-			var endNum = parseInt(jQuery(this).text());
-			jQuery(this).countTo({
-				from: 0,
-				to: endNum,
-				speed: 4000,
-				refreshInterval: 60,
-			});
-		}, { accX: 0, accY: 0 });
-	});
+	// jQuery(".box-icon-number h5").each(function () {
+	// 	jQuery(this).appear(function () {
+	// 		var endNum = parseInt(jQuery(this).text());
+	// 		jQuery(this).countTo({
+	// 			from: 0,
+	// 			to: endNum,
+	// 			speed: 4000,
+	// 			refreshInterval: 60,
+	// 		});
+	// 	}, { accX: 0, accY: 0 });
+	// });
 
 	/* Go up */
 

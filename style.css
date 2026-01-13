@@ -971,11 +971,11 @@ textarea {
 }
 
 .topflow-iconos:hover .box-icon-i {
-  background-color: #92D050 !important;
+	background-color: #92D050 !important;
 }
 
 .topflow-iconos:hover .topflow-icon:before {
-  color: #FFF !important;
+	color: #FFF !important;
 }
 
 .sections-title-h3:before {
@@ -1230,7 +1230,7 @@ textarea {
 }
 
 .box-icon-number h5 {
-	font-size: 45px;
+	font-size: 30px;
 }
 
 /* 08 - Isotope & Portfolio */
@@ -1321,6 +1321,16 @@ textarea {
 .portfolio-img img {
 	width: 100%;
 	height: auto;
+}
+
+.certifications-img img {
+	height: 250px;
+	object-fit: none;
+}
+
+.products-img img {
+	height: 250px;
+	object-fit: cover;
 }
 
 .portfolio-hover {
@@ -2845,7 +2855,7 @@ blockquote {
 
 /* bxSlider 2 */
 .box-icon-slide .box-icon-i {
-	font-size: 27px;
+	font-size: 65px;
 }
 
 .bxslider-slide-2 {
@@ -3556,42 +3566,52 @@ span.crumbs-span,
 }
 
 .clients img {
-  height: 80px;   /* ajusta según te guste */
-  width: auto;        /* mantiene proporción */
-  display: block;
-  margin: 0 auto;     /* centra el logo */
-  object-fit: contain; /* asegura que no se deforme */
+	height: 150px;
+	/* ajusta según te guste */
+	width: auto;
+	/* mantiene proporción */
+	display: block;
+	margin: 0 auto;
+	/* centra el logo */
+	object-fit: contain;
+	/* asegura que no se deforme */
 }
 
 .portfolio-slide ul li {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
 }
 
 .portfolio-slide ul li .col-md-3 {
-    float: none;
-    display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+	float: none;
+	display: flex;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .portfolio-one {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex: 1 1 auto;
-    justify-content: flex-start;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	flex: 1 1 auto;
+	justify-content: flex-start;
 }
 
 .portfolio-content {
-    display: block;
-    flex: 0 0 auto;
-    padding: 20px;
+	display: block;
+	flex: 0 0 auto;
+	padding: 20px;
 }
 
-.portfolio-img img {
-    width: 100%;
-    height: auto;
-    display: block;
+/* Custom Flexbox Utilities for Bootstrap 3 */
+.about-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-section img {
+	width: 100%;
+	max-width: 300px;
 }
